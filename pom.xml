@@ -114,7 +114,18 @@
 		</plugins>
 
 	</build>
-<distributionManagement>
-
+	<distributionManagement>
+   
+ <snapshotRepository>
+    <id>nexus-snapshots</id>
+	<name>SNAPSHOT</name>
+    <url>http://localhost:8081/repository/maven-snapshots/</url>
+ </snapshotRepository>
+ <repository>
+	<id>nexus-release</id>
+	<name>Internal Releases</name>
+    <url>http://localhost:8081/repository/maven-releases/</url>
+ </repository>
 </distributionManagement>
+
 </project>
