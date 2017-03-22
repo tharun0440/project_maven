@@ -124,7 +124,7 @@
  <repository>
 	<id>nexus-release</id>
 	<name>Internal Releases</name>
-    <url>http://http://192.168.153.137:8082/repository/maven-releases/</url>
+    <url>http://192.168.153.137:8082/repository/maven-releases/</url>
  </repository>
 </distributionManagement>
 
